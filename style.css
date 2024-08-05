@@ -1,0 +1,2988 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 100vw;
+    height: initial;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://pramodtripathi.com/drs-1/app-contents/images/backgrounds/hero-background.webp");
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width: 767px)and (max-width: 1000px){
+    .bg {
+        background-size: cover; 
+    }}
+.logo img {
+    padding: 2.5rem 5rem;
+}
+@media screen and (min-width: 767px)and (max-width: 1000px){
+    .logo img {
+        padding: 1rem 1rem;
+    }
+}
+.font {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    color: #00B1DC;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.dr {
+    padding: 1rem 1.5rem;
+    font-size: 1.2vw;
+}
+
+.dr h1 {
+    font-size: 1.4em;
+    color: #636363;
+}
+.dr h2 {
+    font-size: 2.5em;
+
+}
+.dr h3 {
+    font-size: 1.7em;
+    color: #636363;
+}
+.box {
+    position: relative;
+    margin: 1.5rem 3rem;
+
+}
+
+.box1 h2 {
+    background: #F48230;
+    margin: 1rem 2rem;
+    width: fit-content;
+    padding: 1rem 1.7rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+.box2 h1 {
+    width: fit-content;
+    background: #00B1DC;
+    position: absolute;
+    margin: -1rem 4rem;
+    font-size: 1.2vw;
+    padding: 0.2rem 0.7rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 320px)and (max-width: 767px) {
+    .box2 h1 {
+        margin: -0.8rem 2.6rem;
+        padding: 0.3rem 1rem;
+        font-size: 0.5rem;
+    }
+    .bg {
+        width: 100vw;
+        height: 140vh;
+        background-size: cover;
+        position: relative;
+    }
+    .logo {
+        margin: 0rem -4rem;
+
+    }
+    .font {
+        font-size: 0.7rem;
+        width: 100%;
+        margin: auto;
+        margin-top: 10rem;
+    }
+    .box1 h2 {
+        margin: 0.2rem 0.1rem;
+        padding: 0.7rem 1rem;
+
+    }
+    .box {
+        margin-top: 2rem;
+}
+.dr h3 {
+    font-size: 1.1rem;
+}
+.dr h2 {
+    font-size: 1.7rem;
+}
+.dr h1 {
+    font-size: 1.3rem;
+}
+}
+
+.secpart {
+    width: 100vw;
+    margin-top: 3rem;
+}
+
+
+.tired {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secpart .tired h1 {
+    color: #00B1DC;
+    margin-top: 1rem;
+}
+
+.secpart .tired h2 {
+    color: #1F1F1F;
+}
+
+.secpart .tired h3 {
+    color: #636363;
+    margin: 2rem;
+}
+.type {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .type {
+        flex-direction: column;
+        margin-top: 2rem;
+
+    }
+}
+
+.type .one {
+    width: 15%;
+    height: 80%;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .type .one {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+.type .one .pic {
+    width: 100%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7rem;
+}
+
+.type .one h1 {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.type .two {
+    width: 15%;
+    height: 80%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .type .two {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+.type .two h1 {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.type .two .pic {
+    width: 100%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7rem;
+}
+
+.type .two .pic img {
+    margin-top: 0.3rem;
+}
+
+.type .three {
+    width: 15%;
+    height: 80%;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .type .three {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+.type .three .pic {
+    width: 100%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7rem;
+}
+
+.type .three h1 {
+    font-size: 1.2vw;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .type .three h1 {
+        font-size: 0.9rem;
+    }
+}
+
+.type .three .pic img {
+    margin-top: 0.3rem;
+}
+
+.type .four {
+    width: 15%;
+    height: 80%;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .type .four {
+        width: 60%;
+        height: 100%;
+    }
+}
+
+.type .four .pic {
+    width: 100%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7rem;
+}
+
+.type .four h1 {
+    font-size: 1.2vw;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .type .four h1 {
+        font-size: 0.9rem;
+    }
+}
+
+.type .four .pic img {
+    margin-top: 0.3rem;
+}
+
+.type .one :hover {
+    background: #00B0DA;
+}
+
+.type .two :hover {
+    background: #00B0DA;
+}
+
+.type .three :hover {
+    background: #00B0DA;
+}
+
+.type .four :hover {
+    background: #00B0DA;
+}
+.learn {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.learn .orng {
+    width: 40%;
+    height: 70%;
+    background: #F48230;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0.9rem 2rem;
+}
+@media screen and (min-width: 767px)and (max-width: 1000px){
+    .learn .orng {
+        width: 70%;
+    height: 70%;
+    }}
+.learn .orng h1 {
+    font-size: 1.2rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+
+.thirpart {
+    width: 100vw;
+    background: #F5F5F5;
+    margin-top: 5rem;
+}
+
+.thirpart .dr {
+    text-align: center;
+
+}
+
+.thirpart .dr h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: #00B1DC;
+}
+
+.thirpart .dr h2 {
+    font-size: 2.2rem;
+    color: #1F1F1F;
+}
+
+
+.thirpart .part1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.thirpart .part1 .pic1 {
+    width: 38%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(https://pramodtripathi.com/drs-1/app-contents/images/four-steps/fruits.webp);
+    object-fit: cover;
+    background-size: cover;
+}
+
+.thirpart .part1 .pic1 h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 40%;
+    padding-bottom: 1rem;
+}
+
+
+.thirpart .part1 .pic2 {
+    width: 38%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(https://pramodtripathi.com/drs-1/app-contents/images/four-steps/protocol.webp);
+    object-fit: cover;
+    background-size: cover;
+}
+.thirpart .part1 .pic2 h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 40%;
+    padding-bottom: 1rem;
+}
+
+
+.thirpart .part2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.thirpart .part2 .pic1 {
+    width: 38%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(https://pramodtripathi.com/drs-1/app-contents/images/four-steps/excercise.webp);
+    object-fit: cover;
+    background-size: cover;
+}
+
+.thirpart .part2 .pic1 h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 40%;
+    padding-bottom: 1rem;
+}
+.thirpart .part2 .pic2 {
+    width: 38%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url(https://pramodtripathi.com/drs-1/app-contents/images/four-steps/reversal.webp);
+    object-fit: cover;
+    background-size: cover;
+}
+.thirpart .part2 .pic2 h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 40%;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .thirpart .part2 .pic2 h1 {
+        font-size: 1rem;
+    }
+    .thirpart .dr h1 {
+        font-size: 1rem;
+        margin-top: 0.2rem;
+
+    }
+    .thirpart .part1 .pic1 {
+        width: 80%;
+        height: 30%;
+    }
+    .thirpart .part1 {
+        font-size: 1rem;
+        margin-top: 0.2rem;
+        flex-direction: column;
+    }
+    .thirpart .dr h2 {
+        font-size: 1rem;
+        margin-top: 0.2rem;
+    }
+    .thirpart .part1 .pic1 h1 {
+        font-size: 1rem;
+    }
+    .thirpart .part1 .pic2 {
+        width: 80%;
+        height: 30%;
+    }
+    .thirpart .part1 .pic2 h1 {
+        font-size: 1rem;
+    }
+    .thirpart .part2 .pic2 {
+        width: 80%;
+        height: 30%;
+    }
+    .thirpart .part2 .pic1 h1 {
+        font-size: 1rem;
+    }
+    .thirpart .part2 {
+        font-size: 1rem;
+        margin-top: 0.2rem;
+        flex-direction: column;
+    }
+    .thirpart .part2 .pic1 {
+        width: 80%;
+        height: 60%;
+    }
+}
+
+.forpart {
+    width: 100vw;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row-reverse;
+}
+.forpart .par .one {
+    font-size: 1.1rem;
+    margin-top: 4rem;
+}
+
+
+.forpart .par .one h1 {
+    padding: 0vw 7rem;
+}
+
+.forpart .par .one h1 span {
+    color: #00B1DC;
+} 
+.forpart .par .two {
+    display: flex;
+    padding: 0vw 5rem;
+    gap: 1rem;
+}
+
+.forpart .par .two .ring {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.forpart .par .two h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.forpart .par .three {
+    display: flex;
+    padding: 0vw 5rem;
+    gap: 1rem;
+}
+
+
+.forpart .par .three h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.forpart .par .three .ring {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forpart .par .four {
+    display: flex;
+    padding: 0vw 5rem;
+    gap: 1rem;
+}
+
+
+.forpart .par .four h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+.forpart .par .four .ring {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forpart .par .five {
+    width: 45%;
+    height: 10%;
+    background: #F48230;
+    margin-left: 5rem;
+    border-radius: 10px;
+
+}
+
+
+.forpart .par .five h1 {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    color: white;
+    padding: 1rem;
+}
+
+.forpart .par {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+
+.forpart .img {
+    width: 45%;
+    height: 95vh;
+    background: white;
+    margin-top: 5rem;
+    margin-right: 3rem;
+}
+
+@media screen and (min-width: 320px)  and (max-width: 767px){
+    .forpart .img {
+        width: 100%;
+        height: 100%;
+    }
+    .forpart .par .two {
+        display: flex;
+
+        gap: 1rem;
+        width: 90%;
+        padding: 0rem 0.8rem;
+    }
+    .forpart .par .one h1 {
+        font-size: 1.3rem;
+        width: 100%;
+        height: 100%;
+        padding: 0vw 2rem;
+    }
+    .forpart .par .two .ring {
+        padding: 0.9rem;
+    }
+    .forpart .par .three {
+        display: flex;
+        padding: 0vw 0rem;
+        gap: 1rem;
+        width: 90%;
+        padding: 0rem 0.8rem;
+
+    }
+    .forpart .par .one h1 span {
+        font-size: 1.3rem;
+        width: 100%;
+        height: 100%;
+
+    }
+    .forpart {
+        flex-direction: column;
+    }
+    .forpart .par .five h1 {
+        font-size: 0.8rem;
+        padding: 0rem 4rem;
+    }
+    .forpart .par .five {
+        padding: 1rem 0rem;
+        margin-left: 3rem;
+        width: 70%;
+    }
+    .forpart .par .three .ring {
+        padding: 0.9rem;
+    }
+    .forpart .par .four .ring {
+        padding: 0.9rem;
+    }
+    .forpart .par .four {
+        display: flex;
+        padding: 0vw 0rem;
+        gap: 1rem;
+        width: 90%;
+        padding: 0rem 0.8rem;
+
+    }
+}
+
+
+.forpart .img img {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 12px 14px #00B0DA;
+    border-radius: 20px;
+
+}
+
+
+
+.forpart .par .two .ring:hover {
+    background-color: #00B0DA;
+}
+
+.forpart .par .three .ring:hover {
+    background-color: #00B0DA;
+}
+
+.forpart .par .four .ring:hover {
+    background-color: #00B0DA;
+}
+
+.fivepart {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 5rem;
+}
+
+.fivepart img {
+    width: 25%;
+}
+
+.fivepart h1 {
+    color: #00B0DA;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .fivepart h1 {
+        width: 100%;
+        height: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .fivepart {
+        width: 100%;
+        height: 100%;
+        margin-top: 3rem;
+    }
+    .fivepart img {
+        width: 80%;
+        height: 100%;
+
+    }
+}
+
+.sixth {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sixth .grow {
+
+    width: 60vw;
+    height: 70vh;
+    background: white;
+    overflow: hidden;
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .sixth .grow {
+        width: 80%;
+        height: 100%;
+        margin-top: 2rem;
+    }
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+    }
+    .sixth {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.sevpart {
+    width: 100vw;
+    height: 150vh;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.sevpart .one {
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px)  {
+    .sevpart .one {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.sevpart .one h1 {
+    margin-top: 2rem;
+    color: #00B1DC;
+    font-size: 3vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .one h1 {
+        font-size: 1.4rem;
+    }
+}
+
+.sevpart .one h2 {
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .one h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.sevpart .two {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .two {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        margin-top: 1rem;
+    }
+}
+
+.sevpart .two .date {
+    width: 10%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .two .date {
+        width: 22%;
+        height: 100%;
+    }
+}
+
+.sevpart .two .date h1 {
+    font-size: 3rem;
+}
+
+.sevpart .two .hour {
+    width: 10%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .two .hour {
+        width: 22%;
+        height: 100%;
+    }
+}
+
+.sevpart .two .hour h1 {
+    font-size: 3rem;
+}
+
+.sevpart .two .min {
+    width: 10%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .two .min {
+        width: 22%;
+        height: 100%;
+    }
+}
+
+.sevpart .two .min h1 {
+    font-size: 3rem;
+}
+
+.sevpart .two .sec {
+    width: 10%;
+    height: 70%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .two .sec {
+        width: 22%;
+        height: 100%;
+    }
+}
+
+.sevpart .two .sec h1 {
+    font-size: 3rem;
+}
+
+.sevpart .three {
+    width: 100vw;
+    height: 45vh;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+}
+
+
+
+.sevpart .three .two {
+    width: 32%;
+    height: 80%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three .two {
+        width: 70%;
+        height: 70%;
+        margin-left: 4rem;
+        padding: 1rem 0rem;
+    }
+}
+
+.sevpart .three .two .date1 {
+    width: 30%;
+    height: 70%;
+    background: #00B1DC;
+    margin-left: -6rem;
+    position: relative;
+    z-index: 1;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three .two .date1 {
+        width: 40%;
+        height: 50%;
+        border-radius: 5px;
+    }
+}
+
+.sevpart .three .two .font1 h1 {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px)  {
+    .sevpart .three .two .font1 h1 {
+        font-size: 1.3rem;
+    }
+}
+
+.sevpart .three .two .font1 .red {
+    width: 70%;
+    height: 25%;
+    background-color: orange;
+    margin-top: 1vw;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three .two .font1 .red {
+        width: 100%;
+        height: 30%;
+    }
+}
+
+.sevpart .three .two .font1 {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-top: 1.4rem;
+
+}
+
+.sevpart .three .two .font1 .wah {
+    font-weight: 100;
+}
+
+.sevpart .three .two .font1 .wah2 {
+    font-weight: 100;
+    margin-top: 0.4rem;
+}
+
+.sevpart .three .two .font1 .wah2 span {
+    color: orange;
+}
+
+.sevpart .three .two .font1 .wah3 {
+    font-weight: 100;
+    margin-top: 0.4rem;
+}
+
+.sevpart .three .two .font1 .wah3 span {
+    color: orange;
+}
+
+.sevpart .three .two .date1 .on {
+    width: 70%;
+    height: 20%;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-top: -1.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three .two .date1 .on {
+        width: 70%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .two .date1 .on {
+        width: 70%;
+   margin-left: 0.7rem;
+     
+    }
+}
+
+.sevpart .three .two .date1 h1 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .two .date1 h1{
+        font-size: 0.9rem;
+       margin-left: 0.6rem;
+     
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three .two .date1 h1 {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+    }
+}
+
+.sevpart .three .two .date1 h2 {
+    font-size: 3rem;
+    margin-left: 1.8rem;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three .two .date1 h2 {
+        font-size: 3rem;
+        margin-left: 0.6rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .two .date1 h2{
+        font-size: 2.5rem;
+       margin-left: 0.6rem;
+       margin-top: -0.2rem;
+    }
+}
+
+.sevpart .three .two .date1 h3 {
+    font-size: 1.5rem;
+    margin-top: -0.6rem;
+    margin-left: 0.2rem;
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .two .date1 h3{
+        font-size: 1rem;
+       margin-left: 1.5rem;
+     margin-top: -0.5rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .three .two .date1 h3 {
+        font-size: 2rem;
+        margin-left: 0.6rem;
+    }
+}
+
+.sevpart .three .two .date1 .on h1 {
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .two .date1 .on h1{
+       margin-left: 0.6rem;
+       font-size: 0.7rem;
+      padding-top: 0.3rem;
+    }
+}
+
+.sevpart .three .two .font1 .red h1 {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7rem;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .two .font1 .red h1{
+       font-size: 0.7rem;
+      padding-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .three .two .font1 .red h1 {
+        font-size: 0.5rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+
+.sevpart .three .one {
+    width: 32%;
+    height: 80%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .three .one {
+        width: 70%;
+        height: 70%;
+        margin-left: 4rem;
+        padding: 1rem 0rem;
+    }
+}
+
+.sevpart .three .one .date {
+    width: 30%;
+    height: 70%;
+    background: #00B1DC;
+    margin-left: -4rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .three .one .date {
+        width: 40%;
+        height: 50%;
+        border-radius: 5px;
+    }
+}
+
+.sevpart .three .one .font h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-left: -0.5rem;
+    margin-top: -1.3rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .three .one .font h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.sevpart .three .one .font {
+    width: 70%;
+    height: 80%;
+    flex-direction: column;
+    margin-left: 0rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .three .one .font h1 {
+        font-size: 1.3rem;
+    }
+}
+
+.sevpart .three .one .font {
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: flex;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .three .one .font {
+        margin-top: 2rem;
+        margin-left: -1.7rem;
+    }
+}
+
+.sevpart .three .one .font .red {
+    width: 16vw;
+    height: 25%;
+    background: orange;
+    margin-left: -1.6rem;
+    border-radius: 10px;
+    margin-top: -0.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .three .one .font .red {
+        width: 100%;
+        margin-left: 1rem;
+        margin: 0rem 0rem;
+
+        border-radius: 10px;
+    }
+}
+
+.sevpart .three .one .date .on {
+    width: 70%;
+    height: 20%;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 1.3rem;
+    margin-top: -1.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .three .one .date .on {
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width: 767px)and (max-width: 1000px){
+    .sevpart .three .one .date .on {
+        margin-left: 0.7rem;
+    
+    }}
+.sevpart .three .one .date .on h1 {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: -0.3rem;
+}
+@media screen and (min-width: 767px)and (max-width: 1000px){
+    .sevpart .three .one .date .on h1 {
+        font-size: 0.7rem;
+      padding: 0.3rem;
+    
+    }}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .three .one .date .on h1 {
+        font-size: 1rem;
+        margin-left: -0.3rem;
+    }
+}
+
+.sevpart .three .one .font .red h1 {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .three .one .font .red h1 {
+        font-size: 0.5rem;
+        margin-bottom: 0.8rem;
+
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .one .font .red h1 {
+           font-size: 0.7rem;
+   margin-left: 0.4rem;
+   margin-bottom: 0.5rem;
+       }
+   }
+
+.sevpart .three .one .font .wah2 span {
+    color: orange;
+}
+
+.sevpart .three .one .font .wah3 {
+    font-weight: 100;
+    color: black;
+}
+
+.sevpart .three .one .font .wah3 span {
+    color: orange;
+}
+
+.sevpart .three .one .font .wah2 {
+    color: #1F1F1F;
+}
+
+.sevpart .three .one .font .wah {
+    color: black;
+}
+
+.sevpart .three .one .date h1 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+ .sevpart .three .one .date h1 {
+        font-size: 1rem;
+
+        margin-left: 0.4rem;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .one .date h1 {
+           font-size: 0.8rem;
+   margin-left: 0.4rem;
+       }
+   }
+.sevpart .three .one .date h2 {
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .one .date h2 {
+           font-size: 2.5rem;
+   margin-left: 0.4rem;
+       }
+   }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .three .one .date h2 {
+        font-size: 3rem;
+        margin-left: -1rem;
+
+    }
+}
+.sevpart .three .one .date h3 {
+    font-size: 1.4rem;
+    margin-top: -0.6rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .three .one .date h3 {
+        font-size: 2rem;
+        margin-left: 0.4rem;
+
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .three .one .date h3 {
+           font-size: 1rem;
+   margin-left: 0.4rem;
+  margin-top: -0.4rem;
+       }
+   }
+
+.sevpart .four {
+    width: 100vw;
+    height: 45vh;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+}
+
+
+
+.sevpart .four .two {
+    width: 32%;
+    height: 80%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four .two {
+        width: 70%;
+        height: 70%;
+        margin-left: 4rem;
+        padding: 1rem 0rem;
+    }
+}
+
+.sevpart .four .two .date1 {
+    width: 30%;
+    height: 70%;
+    background: #00B1DC;
+    margin-left: -6rem;
+    position: relative;
+    z-index: 1;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four .two .date1 {
+        width: 40%;
+        height: 50%;
+        border-radius: 5px;
+    }
+}
+
+.sevpart .four .two .font1 h1 {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px)  {
+    .sevpart .four .two .font1 h1 {
+        font-size: 1.3rem;
+    }
+}
+
+.sevpart .four .two .font1 .red {
+    width: 70%;
+    height: 25%;
+    background-color: orange;
+    margin-top: 1vw;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four .two .font1 .red {
+        width: 100%;
+        height: 30%;
+    }
+}
+
+.sevpart .four .two .font1 {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-top: 1.4rem;
+
+}
+
+.sevpart .four .two .font1 .wah {
+    font-weight: 100;
+}
+
+.sevpart .four .two .font1 .wah2 {
+    font-weight: 100;
+    margin-top: 0.4rem;
+}
+
+.sevpart .four .two .font1 .wah2 span {
+    color: orange;
+}
+
+.sevpart .four .two .font1 .wah3 {
+    font-weight: 100;
+    margin-top: 0.4rem;
+}
+
+.sevpart .four .two .font1 .wah3 span {
+    color: orange;
+}
+
+.sevpart .four .two .date1 .on {
+    width: 70%;
+    height: 20%;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-top: -1.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four .two .date1 .on {
+        width: 70%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .two .date1 .on {
+        width: 70%;
+   margin-left: 0.7rem;
+     
+    }
+}
+
+.sevpart .four .two .date1 h1 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .two .date1 h1{
+        font-size: 0.7rem;
+       margin-left: 0.6rem;
+     
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four .two .date1 h1 {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        margin-left: 0.6rem;
+    }
+}
+
+.sevpart .four .two .date1 h2 {
+    font-size: 3rem;
+    margin-left: 1.8rem;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four .two .date1 h2 {
+        font-size: 3rem;
+        margin-left: 0.6rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .two .date1 h2{
+        font-size: 2.5rem;
+       margin-left: 0.6rem;
+       margin-top: -0.2rem;
+    }
+}
+
+.sevpart .four .two .date1 h3 {
+    font-size: 1.5rem;
+    margin-top: -0.6rem;
+    margin-left: 0.2rem;
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .two .date1 h3{
+        font-size: 1rem;
+       margin-left: 1.5rem;
+     margin-top: -0.5rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .sevpart .four .two .date1 h3 {
+        font-size: 2rem;
+        margin-left: 0.6rem;
+    }
+}
+
+.sevpart .four .two .date1 .on h1 {
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .two .date1 .on h1{
+       margin-left: 0.6rem;
+       font-size: 0.7rem;
+      padding-top: 0.3rem;
+    }
+}
+
+.sevpart .four .two .font1 .red h1 {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7rem;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .two .font1 .red h1{
+       font-size: 0.7rem;
+      padding-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .four .two .font1 .red h1 {
+        font-size: 0.5rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+
+.sevpart .four .one {
+    width: 32%;
+    height: 80%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .four .one {
+        width: 70%;
+        height: 70%;
+        margin-left: 4rem;
+        padding: 1rem 0rem;
+    }
+}
+
+.sevpart .four .one .date {
+    width: 30%;
+    height: 70%;
+    background: #00B1DC;
+    margin-left: -4rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .four .one .date {
+        width: 40%;
+        height: 50%;
+        border-radius: 5px;
+    }
+}
+
+.sevpart .four .one .font h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-left: -0.5rem;
+    margin-top: -1.3rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .four .one .font h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.sevpart .four .one .font {
+    width: 70%;
+    height: 80%;
+    flex-direction: column;
+    margin-left: 0rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .four .one .font h1 {
+        font-size: 1.3rem;
+    }
+}
+
+.sevpart .four .one .font {
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: flex;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .four .one .font {
+        margin-top: 2rem;
+        margin-left: -1.7rem;
+    }
+}
+
+.sevpart .four .one .font .red {
+    width: 16vw;
+    height: 25%;
+    background: orange;
+    margin-left: -1.6rem;
+    border-radius: 10px;
+    margin-top: -0.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .sevpart .four .one .font .red {
+        width: 100%;
+        margin-left: 1rem;
+        margin: 0rem 0rem;
+
+        border-radius: 10px;
+    }
+}
+
+.sevpart .four .one .date .on {
+    width: 70%;
+    height: 20%;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 1.3rem;
+    margin-top: -1.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .four .one .date .on {
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width: 767px)and (max-width: 1000px){
+    .sevpart .four .one .date .on {
+        margin-left: 0.7rem;
+    
+    }}
+.sevpart .four .one .date .on h1 {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: -0.3rem;
+}
+@media screen and (min-width: 767px)and (max-width: 1000px){
+    .sevpart .four .one .date .on h1 {
+        font-size: 0.7rem;
+      padding: 0.3rem;
+    
+    }}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .four .one .date .on h1 {
+        font-size: 1rem;
+        margin-left: -0.3rem;
+    }
+}
+
+.sevpart .four .one .font .red h1 {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .four .one .font .red h1 {
+        font-size: 0.5rem;
+        margin-bottom: 0.8rem;
+
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .one .font .red h1 {
+           font-size: 0.7rem;
+   margin-left: 0.4rem;
+   margin-bottom: 0.5rem;
+       }
+   }
+
+.sevpart .four .one .font .wah2 span {
+    color: orange;
+}
+
+.sevpart .four .one .font .wah3 {
+    font-weight: 100;
+    color: black;
+}
+
+.sevpart .four .one .font .wah3 span {
+    color: orange;
+}
+
+.sevpart .four .one .font .wah2 {
+    color: #1F1F1F;
+}
+
+.sevpart .four .one .font .wah {
+    color: black;
+}
+
+.sevpart .four .one .date h1 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+ .sevpart .four .one .date h1 {
+        font-size: 1rem;
+
+        margin-left: 0.4rem;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .one .date h1 {
+           font-size: 0.8rem;
+   margin-left: 0.4rem;
+       }
+   }
+.sevpart .four .one .date h2 {
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    color: white;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .one .date h2 {
+           font-size: 2.5rem;
+   margin-left: 0.4rem;
+       }
+   }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .four .one .date h2 {
+        font-size: 3rem;
+        margin-left: -1rem;
+
+    }
+}
+.sevpart .four .one .date h3 {
+    font-size: 1.4rem;
+    margin-top: -0.6rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .sevpart .four .one .date h3 {
+        font-size: 2rem;
+        margin-left: 0.4rem;
+
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .sevpart .four .one .date h3 {
+           font-size: 1rem;
+   margin-left: 0.4rem;
+  margin-top: -0.4rem;
+       }
+   }
+
+
+.eigpart {
+    background-image: url("https://pramodtripathi.com/drs-1/app-contents/images/meet-dr-pramod/Dr-Pramod-Tripathi.webp");
+    background-size: cover;
+   height: 140vh;
+    width: 100%;
+    margin-top: 3rem;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .eigpart {
+        width: 100%;
+        height: 100%;
+        background-image: none;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+.eigpart {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+.eigpart .divMeet {
+    padding: 3rem;
+    opacity: 50%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .eigpart .divMeet {
+        width: 100%;
+        height: 100%;
+        opacity: 60%;
+        background-color: #ededed;
+        padding: 0rem;
+    }
+}
+
+.eigpart .divMeet #pramod {
+    color: #00B1DC;
+    font-size: 3rem;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .divMeet h1 {
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .divMeet #pramod {
+        font-size: 2rem;
+        padding: 1rem;
+        margin-top: -1rem;
+    }
+}
+
+.eigpart .divMeet #guide {
+    font-size: 2.1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .divMeet #guide {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+}
+
+.eigpart .divMeet #past {
+    width: 45vw;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .divMeet #past {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 1rem 1rem;
+    }
+}
+
+.eigpart .divMeet #plan {
+    width: 45vw;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .divMeet #plan {
+        width: 100%;
+        font-size: 0.9rem;
+        padding: 0rem 1rem;
+        margin-top: -0.2rem;
+    }
+}
+
+.divMeet ul {
+    margin-top: 2rem;
+    width: 35vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .divMeet ul {
+        width: 100%;
+        padding: 0rem 1rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+.divMeet ul h1 {
+    font-size: 2rem;
+}
+
+
+.divMeet ul li {
+    margin-left: 1.3rem;
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .divMeet ul li {
+        font-size: 0.7rem;
+        padding: 0 2rem;
+    }
+}
+
+.eigpart .img img {
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .img img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+}
+
+.eigpart .divMeet1 {
+    width: 93vw;
+    margin: 0 3rem;
+    background-color: #FFFFFF;
+    height: 40vh;
+    position: relative;
+    box-shadow: 10px 10px 15px #D9D9D9;
+    z-index: 9;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .divMeet1 {
+        width: 80%;
+        height: 80%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .eigpart .divMeet1 {
+        width: 90%;
+        height: 80%;
+        padding: 1rem 0;
+    }
+}
+.eigpart .divMeet1 .ada1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .eigpart .divMeet1 .ada1 {
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 1rem;
+        width: 100%;
+
+    }
+}
+
+.eigpart .divMeet1 .ada1 .ada2 {
+    color: #00B1DC;
+
+}
+
+.divMeet1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divMeet1 .ada {
+    display: flex;
+    gap: 15px;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .divMeet1 .ada {
+        display: flexbox;
+        gap: 20px;
+        margin-top: 2rem;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .divMeet1 .ada img {
+        width: 40%;
+    }
+}
+.ninepart {
+    width: 100vw;
+    margin-top: 15rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .ninepart {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+.ninepart .one {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart  .one{
+        width: 100%;
+      
+    }
+}
+
+.ninepart .one h1 {
+    color: #00B1DC;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart  .one h1{
+        width: 100%;
+        font-size: 1.3rem;
+      font-weight: 600;
+      padding: 0rem 1rem;
+    }
+}
+
+.ninepart .two {
+    width: 100%;
+   height: 60vh;
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart  .two{
+    width: 100%;
+      height: 100%;
+      flex-direction: column;
+      margin-top: 0rem;
+      padding: 0 0rem;
+    }
+}
+
+.ninepart .two .first {
+    width: 50%;
+    height: 100%;
+    display: flex;   
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .first{
+        width: 100%;
+      height: 100%;
+   flex-direction: column;
+    }
+}
+
+
+.ninepart .two .first .pic {
+    width: 25%;
+    height: 40%;
+    margin-top: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .first .pic{
+        width: 50%;
+      height: 30vh;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    }
+}
+
+.ninepart .two .first .font {
+    width: 75%;
+    height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .first .font {
+        width: 98%;
+height: 100%;
+margin-top: -1.5rem;
+    }
+}
+
+.ninepart .two .first .pic .img {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://pramodtripathi.com/drs-1/app-contents/images/recongnition/icons/Neal.Barnard.MD.FACC.webp");
+    background-size: cover; 
+}
+
+
+.ninepart .two .first .font h1 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .first .font h1{
+        width: 98%;
+      height: 30vh;
+      margin-left: 0rem;
+ 
+    font-size: 1.2rem;
+    }
+}
+
+.ninepart .two .first .font h2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #000;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .first .font h2{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:-7rem;
+    }
+}
+
+.ninepart .two .first .font p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: black;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .first .font p{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:0rem;
+    }
+}
+.ninepart .two .sec {
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .sec{
+        width: 100%;
+      height: 100%;
+   flex-direction: column;
+    }
+}
+.ninepart .two .sec .pic {
+    width: 25%;
+    height: 40%;
+    margin-top: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .sec .pic{
+        width: 50%;
+      height: 30vh;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    }
+}
+
+.ninepart .two .sec .font {
+    width: 75%;
+    height: 100%;
+ 
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .sec .font {
+        width: 98%;
+height: 100%;
+margin-top: -0.5rem;
+    }
+}
+
+.ninepart .two .sec .pic .img {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://pramodtripathi.com/drs-1/app-contents/images/recongnition/icons/Dr.B.M.Hegde.webp");
+    background-size: cover;
+   
+    border-radius: 5px;
+}
+
+.ninepart .two .sec .font h1 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .sec .font h1{
+        width: 98%;
+      margin-left: 0rem;
+ font-size: 1.4rem;
+ margin-top: .5rem;
+    }
+}
+.ninepart .two .sec .font h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #000;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .sec .font h2{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:1rem;
+    }
+}
+
+.ninepart .two .sec .font p {
+    font-size: 1.1rem;
+    margin-top: 2vw;
+    color: black;
+    margin-left: 2rem;
+} 
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .two .sec .font p{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:0rem;
+    }
+}
+.ninepart .three {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    gap: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart  .three{
+        width: 100%;
+      height: 100%;
+      flex-direction: column;
+      margin-top: 0rem;
+      padding: 0 0rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .ninepart .three{
+        margin-top: 16rem;
+    }
+}A
+.ninepart .three .first {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.ninepart .three .first {
+    display: flex;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .first{
+        width: 100%;
+      height: 100%;
+   flex-direction: column;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .ninepart .three .first{
+        width: 100%;
+      height: 100%;
+      display: flex;
+    }
+}
+
+.ninepart .three .first .pic {
+    width: 25%;
+    height: 40%;
+    margin-top: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .first .pic{
+        width: 50%;
+      height: 30vh;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    }
+}
+.ninepart .three .first .font {
+    width: 75%;
+    height: 100%;
+
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .first .font {
+        width: 98%;
+height: 100%;
+margin-top: -1.5rem;
+    }
+}
+.ninepart .three .first .pic .img {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://pramodtripathi.com/drs-1/app-contents/images/recongnition/icons/Roy.Taylor.webp");
+    background-size: cover;
+ 
+}
+
+.ninepart .three .first .font h1 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .first .font h1{
+        width: 98%;
+      height: 30vh;
+      margin-left: 0rem;
+    font-size: 1.2rem;
+    }
+}
+
+.ninepart .three .first .font h2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #000;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .first .font h2{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:-7rem;
+    }
+}
+.ninepart .three .first .font p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: black;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .first .font p{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:0rem;
+    }
+}
+.ninepart .three .sec {
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .sec{
+        width: 100%;
+      height: 100%;
+   flex-direction: column;
+    }
+    @media screen and (min-width: 767px) and (max-width: 1000px) {
+        .ninepart .three .sec{
+            width: 100%;
+            margin-left: -5rem;
+        }
+    }
+}
+.ninepart .three .sec .pic {
+    width: 25%;
+    height: 40%;
+   margin-top: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .sec .pic{
+        width: 50%;
+      height: 30vh;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    }
+}
+.ninepart .three .sec .font {
+    width: 75%;
+    height: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .sec .font {
+        width: 98%;
+height: 100%;
+margin-top: 0.2rem;
+    }
+}
+.ninepart .three .sec .pic .img {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://pramodtripathi.com/drs-1/app-contents/images/recongnition/icons/Dr.Jagdish.Hiremath.webp");
+    background-size: cover;
+    border-radius: 5px;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .ninepart .three .sec .pic .img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .ninepart .three .sec .pic .img{
+        width: 100%;
+        padding: 3rem;
+    }
+}
+.ninepart .three .sec .font h1 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .sec .font h1{
+        width: 98%;
+      height: 30vh;
+      margin-left: 0rem;
+ 
+    font-size: 1.2rem;
+    }
+}
+.ninepart .three .sec .font h2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #000;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .sec .font h2{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:-5.5rem;
+    }
+}
+.ninepart .three .sec .font p {
+    font-size: 1.1rem;
+    margin-top: 2vw;
+    color: black;
+    margin-left: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ninepart .three .sec .font p{
+        width: 98%;
+      margin-left: 0rem;
+      margin-top:0rem;
+    }
+}
+.ninepart .button {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .ninepart .button{
+        margin-top: 18rem;
+        width: 100%;
+    }
+}
+.but {
+    width: 50%;
+    height: 70%;
+    background: orange;
+    border-radius: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .but{
+        width: 80%;
+        height: 40%;
+    }
+}
+
+.but h1 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .but h1{
+        font-size: 0.6rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .but h1{
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 0 1rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+}
+.ten {
+    width: 100%;
+    height: 65vh;
+    background: #F5F5F5;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ten{
+    width: 100%;
+    height: 100%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+    .ten{
+        width: 100%;
+        height: 100%;
+        padding: 1rem 0;
+    }
+}
+.ten .div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ten .div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+}
+.ten .div h1 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #00B1DC;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ten .div h1{
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+}
+
+.ten ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    list-style-type: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ten ul{
+        display: flex;
+        flex-direction: column;
+     
+    }
+}
+
+.ten ul li {
+    margin-top: 4rem;
+
+}
+
+.ten ul li h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+
+.stories {
+    text-align: center;
+    color: #00B1DC;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .stories{
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+.Success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    gap: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .Success{
+        display: flex;
+        flex-direction: column; 
+        margin-top: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+}
+.Success .success-contant1 {
+    width: 30vw;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://i.ytimg.com/vi/vK_duzfxwXY/sddefault.jpg");
+    padding-left: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .Success .success-contant1{
+        width: 90%;
+        height: 100%;
+        padding: 2rem 0;
+    }
+}
+.Success .success-contant2 {
+    width: 30vw;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://i.ytimg.com/vi/OueNsFdD8hM/sddefault.jpg");
+    padding-left: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .Success .success-contant2{
+        width: 90%;
+        height: 100%;
+        padding: 2rem 0;
+    }
+}
+.Success .success-contant3 {
+    width: 30vw;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://i.ytimg.com/vi/MC77iMC-Xpc/sddefault.jpg");
+    padding-left: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .Success .success-contant3{
+        width: 90%;
+        height: 100%;
+        padding: 2rem 0;
+    }
+}
+.Success img {
+    margin-top: 7rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .Success img{
+        margin-top: 2rem;
+
+    }
+}
+.Success img:hover {
+    scale: 1.1;
+}
+
+.tlvpart {
+    width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tlvpart{
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+
+.tlvpart .faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tlvpart .faq h1 {
+    font-size: 3rem;
+    color: #00B1DC;
+    margin-top: 2vw;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tlvpart .faq h1{
+        font-size: 2rem;
+        width: 100%;
+        margin-top: 1vw;
+    }
+}
+.tlvpart .box {
+    width: 70%;
+    padding: 1rem;
+    background: #F5F5F5;
+    border-radius: 5px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tlvpart .box{
+        width: 98%;
+        padding: 1rem;
+    }
+}
+.tlvpart .box .para {
+    display: none;
+    font-size: 1rem;
+}
+
+.tlvpart .box .all {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tlvpart .box .all{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.tlvpart .box .all h1 {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tlvpart .box .all  h1{
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+}
+.lastpart {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lastpart {
+        width: 100%;
+        height: 100%; 
+    }
+}
+.lastpart .join {
+    width: 90%;
+    height: 100%;
+    background-color: #00B1DC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lastpart .join {
+        width: 98%;
+        height: 98%;
+        padding: 1rem 0; 
+    }
+}
+.lastpart .join h1 {
+    font-size: 1.6rem;
+    color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lastpart .join h1{
+        font-size: 0.8rem;
+    }
+}
+.lastpart .join h2 {
+    font-size: 1.6rem;
+    color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lastpart .join h2{
+        font-size: 0.8rem;
+    }
+}
